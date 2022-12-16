@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+body {
+  background-color: rgb(167, 173, 173);
+}
+main section .container {
+  display: flex;
+  justify-content: center;
+}
+main section .container .content {
+  margin-top: 50px;
+}
+main section .container .search-bar {
+  display: flex;
+  align-items: center;
+}
+main section .container .search-bar #search {
+  outline: none;
+  border: none;
+  height: 80px;
+  width: 800px;
+  font-size: 30px;
+  padding: 0px 30px;
+  border-radius: 10px;
+}
+main section .container .search-bar .get-repo-btn {
+  height: 80px;
+  width: 160px;
+  border: none;
+  font-size: 22px;
+  color: #2c3e50;
+  background-color: #fff;
+  margin-left: 20px;
+  padding: 0px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+main section .container .all-api {
+  margin-top: 25px;
+  background-color: #fff;
+  padding: 20px;
+  color: #4c5055;
+  border-radius: 10px;
+}
+main section .container .all-api .repo-details {
+  display: flex;
+  justify-content: space-between;
+}
+main section .container .all-api .repo-details .stars-visit {
+  display: flex;
+  align-items: center;
+}
+main section .container .all-api .repo-details p {
+  font-size: 30px;
+}
+main section .container .all-api .repo-details .visit {
+  background-color: #9e4f4f;
+  padding: 10px 30px;
+  font-size: 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+}
+main section .container .all-api .repo-details .visit:hover {
+  background-color: rgb(59, 175, 160);
+}
+main section .container .all-api .repo-details .stars {
+  color: #fff;
+  background-color: rgb(98, 139, 139);
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
